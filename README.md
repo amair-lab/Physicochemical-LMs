@@ -1,11 +1,5 @@
-> The official repo for the paper _**[Leveraging large language models for nanaosynthesis mechanisms explanation](https://arxiv.org/abs/2407.08922)** (preprint)._
-
-
-
-## Abstract
-
-With the rapid development of artificial intelligence (AI), large language models (LLMs) such as GPT-4 have garnered significant attention in the scientific community, demonstrating great potential in advancing scientific discovery. This progress raises a critical question: are these LLMs well-aligned with real-world physicochemical principles? Current evaluation strategies largely emphasize fact-based knowledge, such as material property prediction or name recognition, but they often lack an understanding of fundamental physicochemical mechanisms that require logical reasoning. To bridge this gap, our study developed a benchmark consisting of 775 multiple-choice questions focusing on the mechanisms of gold nanoparticle synthesis. By reflecting on existing evaluation metrics, we question whether a direct true-or-false assessment merely suggests conjecture. Hence, we propose a novel evaluation metric, the confidence-based score (c-score), which probes the output logits to derive the precise probability for the correct answer. Based on extensive experiments, our results show that in the context of gold nanoparticle synthesis, LLMs understand the underlying physicochemical mechanisms rather than relying on conjecture. This study underscores the potential of LLMs to grasp intrinsic scientific mechanisms and sets the stage for developing more reliable and effective AI tools across various scientific domains.
-
+# Leveraging Large Language Models for Explaining Material Synthesis Mechanisms: The Foundation of Materials Discovery
+##### NeurIPS 2024 AI4Mat Workshop
 
 <div align="center">
   <img src="assets/img.png" alt="Image-1" width="800"/>
@@ -49,10 +43,12 @@ If you have any questions, please feel free to email: `yingmingpu@gmail.com`
 ### Citation
 
 ```bibtex
-@article{pu2024leveraging,
-  title={Leveraging large language models for nano synthesis mechanism explanation: solid foundations or mere conjectures?},
-  author={Pu, Yingming and Huang, Liping and Lin, Tao and Chen, Hongyu},
-  journal={arXiv preprint arXiv:2407.08922},
-  year={2024}
+@inproceedings{
+  pu2024leveraging,
+  title={Leveraging Large Language Models for Explaining Material Synthesis Mechanisms: The Foundation of Materials Discovery},
+  author={Yingming Pu and Liping Huang and Tao Lin and Hongyu Chen},
+  booktitle={AI for Accelerated Materials Design - NeurIPS 2024},
+  year={2024},
+  url={https://openreview.net/forum?id=I6jYRbaai8}
 }
 ```
